@@ -12,11 +12,11 @@
             $this-> dimensioni = $dimensioni;
         }   
         
-        public function getPeso(){
+        public function getCaratteristiche(){
 			return $this-> caratteristiche;
 		}
 
-        public function getIngredienti(){
+        public function getDimensioni(){
 			return $this-> dimensioni;
 		}
 
