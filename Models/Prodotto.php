@@ -6,7 +6,7 @@
         public $animale;
         public $prezzo;
     
-        function __construct($immagine, $nome, $animale, $prezzo){
+        public function __construct($immagine, $nome, $animale, $prezzo){
             $this->immagine = $immagine;
             $this-> nome = $nome;
             $this-> animale = $animale;

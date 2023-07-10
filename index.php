@@ -1,5 +1,5 @@
 <?php
-    //Collego i file contenenti le classi
+    //Recupero i file contenenti le classi
     require_once __DIR__."/Models/Prodotto.php";
 
     //Creo la prima istanza della classe Prodotto
