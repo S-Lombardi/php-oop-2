@@ -1,11 +1,19 @@
 <?php
     //Recupero i file contenenti le classi
     require_once __DIR__."/Models/Prodotto.php";
+    require_once __DIR__."/Models/Cibo.php";
+    require_once __DIR__."/Models/Gioco.php";
+    require_once __DIR__."/Models/Utilita.php";
 
-    //Creo la prima istanza della classe Prodotto
-    $prodotto = new Prodotto('https://picsum.photos/200/300','Royal Canin','Cane', 12);
+    //Istanze della classe prodotto
+    $cibo = new Cibo ('https://picsum.photos/200/300','Canin','Gatto',13, 10,'pollo');
 
-    var_dump($prodotto);
+    $giochi = new Gioco ('https://picsum.photos/200/300','Canin','Gatto',13, 'sasas',10);
+
+    $utilita = new Gioco ('https://picsum.photos/200/300','Canin','Gatto',13, 'legno',10);
+
+
+    var_dump($cibo, $giochi,$utilita );
 
 ?>
 
