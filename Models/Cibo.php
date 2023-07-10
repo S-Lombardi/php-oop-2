@@ -5,9 +5,9 @@
         public $peso;
         public $ingredienti;
    
-        function __construct($immagine, $nome, $animale, $prezzo, $peso, $ingredienti){
+        function __construct($immagine, $nome, $animale, $prezzo, $peso, $ingredienti, $icona){
             //Richiamo il costruttore del genitore
-            parent::__construct($immagine, $nome, $animale, $prezzo);
+            parent::__construct($immagine, $nome, $animale, $prezzo, $icona);
             $this->peso = $peso;
             $this->ingredienti = $ingredienti;
         }   
