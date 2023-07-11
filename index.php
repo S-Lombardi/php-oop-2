@@ -7,10 +7,10 @@
     
     //Array per stampare le info con un ciclo - Istanze della classe Prodotto
     $array_cibo=[
-        $cibo =  new Cibo ('https://arcaplanet.vtexassets.com/arquivos/ids/245173/almo-nature-holistic-cane-adult-medium-pollo-e-riso.jpg','Royal Canin Mini Adult','Cane', 43.99, 545, 'prosciutto, riso', 'fa-dog'),
+        $cibo = new Cibo ('https://arcaplanet.vtexassets.com/arquivos/ids/245173/almo-nature-holistic-cane-adult-medium-pollo-e-riso.jpg','Royal Canin Mini Adult','Cane', 43.99, 545, 'prosciutto, riso', 'fa-dog'),
         $cibo1 = new Cibo ('https://arcaplanet.vtexassets.com/arquivos/ids/245173/almo-nature-holistic-cane-adult-medium-pollo-e-riso.jpg','Almo Nature Holistic Maintenance Medium Large Tonno e Riso','Cane', 44.99, 600, 'manzo, cereali', 'fa-dog'),
         $cibo2 = new Cibo ('https://arcaplanet.vtexassets.com/arquivos/ids/245336/almo-daily-menu-cat-400-gr-vitello.jpg','Almo Nature Cat Daily Lattina','Gatto', 34.99, 400, 'tonno, pollo, prosciutto', 'fa-cat'),
-        $cibo3 = $cibo3 = new Cibo ('https://arcaplanet.vtexassets.com/arquivos/ids/272714/tetra-guppy-mini-flakes.jpg','Mangime per Pesci Guppy in Fiocchi','Pesce', 2.95, 30, 'Pesci, Cereali, Lieviti, Alghe', 'fa-fish'),
+        $cibo3 = new Cibo ('https://arcaplanet.vtexassets.com/arquivos/ids/272714/tetra-guppy-mini-flakes.jpg','Mangime per Pesci Guppy in Fiocchi','Pesce', 2.95, 30, 'Pesci, Cereali, Lieviti, Alghe', 'fa-fish'),
     ];
 
     $array_utilita=[
@@ -139,14 +139,9 @@
                         </div>
                     </div>
                 <?php } ?>
-
                 <!--FINE PRODOTTI GIOCO -->
-
             </div>
         </div>
-
         <!-- FINE CARD Prodotti -->
-
-
     </body>
 </html>
