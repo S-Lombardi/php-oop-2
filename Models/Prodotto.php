@@ -19,7 +19,6 @@
 		public function getIcona(){
 			return $this-> icona;
 		}
-
 		public function getImg(){
 			return $this-> immagine;
 		}
